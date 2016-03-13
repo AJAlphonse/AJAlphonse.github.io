@@ -1,9 +1,9 @@
 h1{font-family: Adelle; font-size: 24px; color: #e6e6e6}
 h2{font-family: helvetica; font-variant: italic; font-size: 14px; color: #3F474A; line-height: 10px}
 body{background-color: #1B2326; margin-left: 50px}
-p{font-family: Din; font-size: 16px; line-height: 18px; width: 500px; color:#adadad;}
+p{font-family: Din; font-size: 16px; line-height: 18px; width: 350px; color:#adadad;}
 div{padding: 24px}
 img{float: right;
     width: 300px;
     border: 3px solid #f0f0f0;
-    padding: 10px}
+    padding: 0px}
