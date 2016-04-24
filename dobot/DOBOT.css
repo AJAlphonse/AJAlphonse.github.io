@@ -11,9 +11,15 @@
     padding-bottom: 60px;
   }
 }
-article{margin-bottom:00px;
+
+.logo{
+	float: left, top;
+	max-width: 40px;
+	}
+
+
+article{margin-bottom: 100px;
 	border-bottom: 2px solid;
-	display: block;
 	border-bottom-color: #adadad;  
 
 }
@@ -44,11 +50,33 @@ p{font-family: Din;
 
 div{padding: 24px}
 
-img{float: right;
+
+.dobot{float: right;
 	display: block;
 	margin-right: 200px;
 	margin-bottom: 0px;
-    max-width: 400px;
+    max-width: 300px;
+    min-width:299px; 
+    border: 3px solid #f0f0f0;
+    padding: 0px
+}
+
+.prod2{float: right;
+	display: block;
+	margin-right: 200px;
+	margin-bottom: 0px;
+    max-width: 300px;
+    min-width:299px; 
+    border: 3px solid #f0f0f0;
+    padding: 0px
+}
+
+.stix{float: right;
+	display: block;
+	margin-right: 200px;
+	margin-bottom: 0px;
+    max-width: 300px;
+    min-width:299px; 
     border: 3px solid #f0f0f0;
     padding: 0px
 }
@@ -73,6 +101,6 @@ button{
 	padding: 10px;
 	margin: 10px;
 	border: none;
-	margin-bottom: 400px;
+	border-radius: 9px;
 	
 }
