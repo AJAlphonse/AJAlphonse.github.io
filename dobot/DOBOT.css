@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 860px) {
-	{
+	{	
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -14,7 +14,7 @@
 
 .logo{
 	float: left, top;
-	max-width: 40px;
+	max-width: 50px;
 	}
 
 
@@ -62,7 +62,8 @@ div{padding: 24px}
 }
 
 .prod2{float: right;
-	display: block;
+	display: inline-block;
+	position: relative;
 	margin-right: 200px;
 	margin-bottom: 0px;
     max-width: 300px;
