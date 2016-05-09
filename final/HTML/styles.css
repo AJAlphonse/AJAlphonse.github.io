@@ -149,7 +149,7 @@ a:active { color: #5b4219; }
 	.nav a
 	{
 		text-align: center;
-		display: block;
+		display: inline;
 		padding: 25px;
 		border-bottom: 0;
 	}
