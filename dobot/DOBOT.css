@@ -90,6 +90,19 @@ a{color: teal;
 	
 }
 
+hr{color: #f8695a;
+
+
+}
+
+.Border{color: teal; 
+	text-decoration: none;
+	border-bottom: 2px solid;
+	display: block;
+	border-bottom-color: #f8695a;
+
+}
+
 span{font-family: Quatro Slab; 
 	font-weight: lighter;
 	font-size: 20px; 
@@ -105,3 +118,10 @@ button{
 	border-radius: 9px;
 	
 }
+
+@media (min-width: 42em)
+{
+	.header { padding: 1.5em 3em; }
+	.nav-bar { padding: 1em 3em; }
+	.content { padding: 2em 3em; }
+	.footer { padding: 2em 3em; }
