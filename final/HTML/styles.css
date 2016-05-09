@@ -15,12 +15,12 @@ h1,h2,h3,h4,h5,h6
 	line-height: 1.1;
 }
 
-h1 { font-size: 2.25em; font-family: Belizio; color: #4e3a14;} /* 36px */
-h2 { font-size: 1.75em; } /* 28px */
-h3 { font-size: 1.375em; } /* 22px */
-h4 { font-size: 1.125em; } /* 18px */
-h5 { font-size: 1em; } /* 16px */
-h6 { font-size: .875em; } /* 14px */
+h1 { font-size: 2.25em; font-family: Belizio; color: #4e3a14;} 
+h2 { font-size: 1.75em; } 
+h3 { font-size: 1.375em; } 
+h4 { font-size: 1.125em; } 
+h5 { font-size: 1em; } 
+h6 { font-size: .875em; } 
 
 p
 {
@@ -140,7 +140,6 @@ a:active { color: #5b4219; }
 	.nav-bar { padding: 1em 3em; }
 	.content { padding: 2em 3em; }
 	.footer { padding: 2em 3em; }
-	
 	.nav li
 	{
 		margin: 0 1em 0 0;
