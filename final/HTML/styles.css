@@ -105,7 +105,7 @@ a:active { color: #5b4219; }
 	border-bottom: 1px solid #5b4219;
 }
 
-.nav a:link { color: #4e3a14; }
+.nav a:link { color: white; }
 .nav a:visited { color: white; }
 
 .nav a:focus
