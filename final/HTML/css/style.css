@@ -46,21 +46,12 @@ margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
 padding: 130px 0 0 0; /*Set value to (HeightOfFrameDiv 0 0 0)*/
 }
 
-* html #maincontent{ /*IE6 hack*/
+* html #maincontent{ 
 height: 100%; 
 width: 100%; 
 }
 
 </style>
-
-<script type="text/javascript">
-/*** Temporary text filler function. Remove when deploying template. ***/
-var gibberish=["This is just some filler text", "Welcome to Dynamic Drive CSS Library", "Demo content nothing to read here"]
-function filltext(words){
-for (var i=0; i<words; i++)
-document.write(gibberish[Math.floor(Math.random()*3)]+" ")
-}
-</script>
 
 </head>
 
@@ -90,5 +81,6 @@ document.write(gibberish[Math.floor(Math.random()*3)]+" ")
 
 </body>
 </html>
-
+:#5f666e;
+}
 

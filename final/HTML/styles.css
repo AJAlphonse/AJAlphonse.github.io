@@ -1,6 +1,3 @@
-/* -----------------------
-Base styles
-------------------------*/
 
 body
 {
@@ -8,7 +5,7 @@ body
 	padding: 0;
 	color: #333;
 	background-color: #b7872c;
-	font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font: 1em/1.2 "Brandon Grotesque", Helvetica, Arial, Geneva, sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6
@@ -18,7 +15,7 @@ h1,h2,h3,h4,h5,h6
 	line-height: 1.1;
 }
 
-h1 { font-size: 2.25em; font-family: Belizio; } /* 36px */
+h1 { font-size: 2.25em; font-family: Belizio; color: #4e3a14;} /* 36px */
 h2 { font-size: 1.75em; } /* 28px */
 h3 { font-size: 1.375em; } /* 22px */
 h4 { font-size: 1.125em; } /* 18px */
@@ -27,15 +24,11 @@ h6 { font-size: .875em; } /* 14px */
 
 p
 {
+	color: #4e3a14;
+	font-size: 1.125em;
+	font-family: Brandon Grotesque; font-weight: bold;
 	margin: 0 0 1.5em;
 	line-height: 1.5;
-}
-
-blockquote
-{
-	padding: 1em 2em;
-	margin: 0 0 2em;
-	border-left: 5px solid #eee;
 }
 
 hr
@@ -47,31 +40,11 @@ hr
 	border-top: 1px solid #4e3a14;
 }
 
-table
-{
-	background-color: transparent;
-	border-spacing: 0;
-	border-collapse: collapse;
-	border-top: 1px solid #ddd;
-}
-
-th, td
-{
-	padding: .5em 1em;
-	vertical-align: top;
-	text-align: left;
-	border-bottom: 1px solid #ddd;
-}
-
 a:link { color: royalblue; }
 a:visited { color: purple; }
 a:focus { color: black; }
-a:hover { color: green; }
-a:active { color: red; }
-
-/* -----------------------
-Layout styles
-------------------------*/
+a:hover { color: #b7872c; }
+a:active { color: #5b4219; }
 
 .container
 {
@@ -102,16 +75,17 @@ Layout styles
 
 .footer
 {
-	color: #fff;
-	background: #000;
+	color: #4e3a14;
+	background: #5b4219;
 	padding: 1em 1.25em;
 }
 
 
 .nav
 {
+	margin-left: 100px;
 	margin: 0;
-	padding: 0;
+	padding: 12px;
 	list-style: none;
 }
 
@@ -123,14 +97,15 @@ Layout styles
 
 .nav a
 {
-	display: block;
-	padding: .7em 1.25em;
+	text-align: center;
+	display: inline;
+	padding: 25px;
 	color: #fff;
 	text-decoration: none;
 	border-bottom: 1px solid gray;
 }
 
-.nav a:link { color: white; }
+.nav a:link { color: #4e3a14; }
 .nav a:visited { color: white; }
 
 .nav a:focus
@@ -142,86 +117,22 @@ Layout styles
 .nav a:hover
 {
 	color: white;
-	background-color: green;
+	background-color: #8d6822;
 }
 
 .nav a:active
 {
 	color: white;
-	background-color: red;
+	background-color: #5b4219;
 }
 
 
 .img-responsive { max-width: 100%; 
 }
 
-.btn
-{
-	color: #fff !important;
-	background-color: royalblue;
-	border-color: #222;
-	display: inline-block;
-	padding: .5em 1em;
-	margin-bottom: 0;
-	font-weight: 400;
-	line-height: 1.2;
-	text-align: center;
-	white-space: nowrap;
-	vertical-align: middle;
-	cursor: pointer;
-	border: 1px solid transparent;
-	border-radius: .2em;
-	text-decoration: none;
+.FPO{ max-width: 100%;
+	padding: 1em;
 }
-
-.btn:hover
-{
-	color: #fff !important;
-	background-color: green;
-}
-
-.btn:focus
-{
-	color: #fff !important;
-	background-color: black;
-}
-
-.btn:active
-{
-	color: #fff !important;
-	background-color: red;
-}
-
-.table
-{
-	width: 100%;
-	max-width: 100%;
-	margin-bottom: 20px;
-}
-
-.list-unstyled
-{
-	padding-left: 0;
-	list-style: none;
-}
-
-.list-inline
-{
-	padding-left: 0;
-	margin-left: -5px;
-	list-style: none;
-}
-
-.list-inline > li
-{
-	display: inline-block;
-	padding-right: 5px;
-	padding-left: 5px;
-}
-
-/* -----------------------
-Wide styles
-------------------------*/
 
 @media (min-width: 42em)
 {
@@ -232,14 +143,14 @@ Wide styles
 	
 	.nav li
 	{
-		display: inline;
 		margin: 0 1em 0 0;
 	}
 	
 	.nav a
 	{
+		text-align: center;
 		display: inline;
-		padding: 0;
+		padding: 25px;
 		border-bottom: 0;
 	}
 }
